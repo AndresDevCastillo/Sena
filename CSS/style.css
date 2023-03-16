@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+.caja {
+    width: 200px;
+    height: 200px;
+
+    border: 3px solid black;
+    display: flex;
+    
+}
+
+.azul {
+    background-color: blue;
+}
+
+.roja {
+    background-color: red;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.marron {
+    background-color: #815826;
+}
+
+.amarilla {
+    background-color: yellow;
+} */
+
+.cara {
+    width: 900px;
+    height: 900px;
+    background-color: #50C701;
+    margin:  200px;
+    position: static;
+    animation: colorr 8s infinite;
+    
+   
+    
+}
+
+.ojos {
+    height: 320px;
+    width: 250px;
+    background-color: #fff;
+   
+    border-radius: 40%;
+    position: absolute;
+    top: 470px;
+    
+}
+
+.left {
+    left: 715px;
+    
+}
+.right {
+    left: 310px;
+    
+}
+
+.relleno-ojo {
+    height: 150px;
+    width:120px;
+    background-color: rgb(76, 76, 76);
+    border-radius: 50px;
+    position: absolute;
+    top: 85px;
+    left:30px;
+}
+.punta {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+}
+
+.nariz {
+    background-color: #F48000;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    position: absolute;
+    left: 573px;
+    top: 700px;
+}
+.epico {
+    background-color: #FFC201;
+    height: 170px;
+    width: 180px;
+    border-radius: 100%;
+    position: absolute;
+    left: 545px;
+    top: 680px;
+    clip-path: polygon(100% -100%, 100% 12%, 100% 35%, 100% 35%, 50% 53%, 51% 53%, 2% 37%, 2% 35%, 17% 12%);
+}
+.otrojo {
+        position: absolute;
+        right: 90px;
+}
+.shadow {
+    width: 50px;
+    height: 30px;
+    background-color: #FFE747;
+    border-radius: 20px;
+    position: absolute;
+    left: 608px;
+    top: 700px;
+    z-index: 99;
+    opacity: .5;
+
+}
+.mascara {
+    position: absolute;
+    width: 480px;
+    height: 550px;
+    background-color: #8EE000;
+    border-radius: 220px;
+    top: 340px;
+    animation: colorm 8s infinite;
+    
+   
+}
+.mascara2 {
+    position: absolute;
+    width: 480px;
+    height: 550px;
+    background-color: #8EE000;
+    border-radius: 220px;
+
+    top: 350px;
+    left: 620px;
+    animation: colorm 8s infinite;
+   
+}
+.fig1 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    clip-path: polygon(0 0, 48% 45%, 100% 100%, 0% 100%);
+    
+    border-radius: 25%;
+    top:159px;
+    left:475px;
+    transform: rotate(-45deg);
+    background-color: #50C701;
+    z-index: 99;
+    animation: colorr 8s infinite;
+    
+    
+}
+
+.fig2 {
+    position: absolute;
+    width: 180px;
+    height:200px;
+    background-color: #8EE000;
+    clip-path: ellipse(28% 45% at 50% 50%);
+    top: 325px;
+    transform: rotate(-13deg);
+    left: 199px;
+    animation: colorm 8s infinite;
+}
+.fig3 {
+    position: absolute;
+    width: 220px;
+    height:250px;
+    background-color: #8EE000;
+    clip-path: ellipse(28% 45% at 50% 50%);
+    top: 240px;
+    transform: rotate(-22deg);
+    left: 280px;
+    animation: colorm 8s infinite;
+}
+
+.fig4 {
+    position: absolute;
+    width: 200px;
+    height:200px;
+    background-color: #8EE000;
+    clip-path: ellipse(28% 45% at 50% 50%);
+    left: 910px;
+    transform: rotate(15deg);
+    top: 315px;
+    animation: colorm 8s infinite;
+}
+
+.fig5 {
+    position: absolute;
+    width: 220px;
+    height:250px;
+    background-color: #8EE000;
+    clip-path: ellipse(28% 45% at 50% 50%);
+    top: 240px;
+    transform: rotate(22deg);
+    left: 780px;
+    animation: colorm 8s infinite;
+}
+
+h1 {
+    text-align: center;
+}
+
+.titulo1 {
+
+    color: #50C701;
+    font-size: 200px;
+    position: absolute;
+    left: 250px;
+    animation: name 8s infinite;
+
+}
+.titulo2 {
+    position: absolute;
+    color: #D7012E;
+    font-size: 200px;
+    left: 150px;
+    opacity: 0.01;
+    animation: name2 8s infinite;
+}
+.cola1 {
+    width: 40px;
+    height: 130px;
+    background-color: #000000;
+    transform: rotate(-135deg);
+    position: absolute;
+    top: 610px;
+    left: 1090px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    z-index: -1;
+    opacity: 0.01;
+ 
+}
+.cola2 {
+    width: 40px;
+    height: 190px;
+    background-color: #000000;
+    transform: rotate(-95deg);
+    position: absolute;
+    top: 610px;
+    left: 1090px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    z-index: -1;
+    opacity: 0.01;
+}
+.cola3 {
+    width: 40px;
+    height: 130px;
+    background-color: #000000;
+    transform: rotate(-65deg);
+    position: absolute;
+    top: 660px;
+    left: 1090px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    z-index: -1;
+    opacity: 0.01;
+}
+.cola1, .cola2, .cola3 {
+    animation: cola 8s infinite;
+    
+}
+
+
+@keyframes  colorr {
+    50% {
+             background-color: #D7012E;
+             border-radius: 100%;
+    }
+
+    100% {
+             background-color: #50C701;
+    
+}
+}
+@keyframes  colorm {
+    50% {
+             background-color: #A80122;
+    }
+
+    100% {
+             background-color: #8EE000;
+    
+}
+}
+
+
+@keyframes name {
+    
+    25% {
+
+    }
+    
+    50% {
+            opacity: 0.01;
+    }
+    
+    75% {
+    
+    }
+    100% {
+
+    }
+}
+
+@keyframes name2 {
+    0%{
+        opacity: 0.01;
+    }
+    
+    25% {
+       
+
+    }
+    
+    50% {
+            opacity: 1;
+    }
+    
+    75% {
+    
+    }
+    100% {
+        
+    }
+}
+
+@keyframes cola {
+    0% {
+        opacity: 0.01;
+    }
+
+    25% {
+        
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.01;
+    }
+    
+    
+}
+

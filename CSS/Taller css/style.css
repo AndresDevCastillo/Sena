@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: turquoise;
+    padding: 10px;
+}
+
+.p {
+    height: 3000px;
+    width: 80%;
+}
